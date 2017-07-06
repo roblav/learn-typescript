@@ -1,3 +1,3 @@
 /// <reference path="vendingMachine.ts" />
 
-var Machine = new VendingMachine();
+var machine = new vendingMachine();

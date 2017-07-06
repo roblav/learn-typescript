@@ -1,7 +1,7 @@
-/// <reference path="coin.ts" />
+/// <reference path="./coin.ts" />
 
 
-class VendingMachine {
+class vendingMachine {
     private paid = 0
     acceptCoin = (coin: Quarter): void => {
         this.paid += coin.Value
